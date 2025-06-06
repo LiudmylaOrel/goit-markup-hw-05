@@ -477,27 +477,29 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <label class="footer-label" aria-label="footer email"
-            >Subscribe
-            <input
-              type="email"
-              class="footer-input"
-              name="footer-email"
-              placeholder="E-mail"
-            />
-          </label>
-          <button type="submit" class="footer-button btn">
-            Subscribe<svg class="footer-icon-btn" width="24" height="24">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="footer-form-container">
+          <p class="footer-form-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label" aria-label="footer email"
+              ><input
+                type="email"
+                class="footer-input"
+                name="footer-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-button btn">
+              Subscribe<svg class="footer-icon-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
     <!--MODAL-->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
