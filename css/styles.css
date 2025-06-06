@@ -608,7 +608,6 @@ color: #ffffff;
     align-items: center;
     margin-bottom: 24px;
     padding: 0;
-    border: none;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -664,7 +663,7 @@ color: #ffffff;
 }
 
 .modal-field {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .modal-input-cover {
@@ -760,5 +759,5 @@ textarea::placeholder {
 }
 
 .check-field {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
