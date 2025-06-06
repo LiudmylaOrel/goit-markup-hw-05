@@ -616,6 +616,7 @@ color: #ffffff;
 .modal-close:focus {
     background-color: #404bbf;
     fill: #fff;
+    border: none;
 }
 
 .modal-close-icon {
@@ -663,6 +664,7 @@ color: #ffffff;
 }
 
 .modal-field {
+    margin-bottom: 16px;
     margin-bottom: 8px;
 }
 
@@ -759,5 +761,5 @@ textarea::placeholder {
 }
 
 .check-field {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
